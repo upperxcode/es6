@@ -5,6 +5,7 @@ class Message {
     this._msg     = msg;
   }
 
+
   get msg(){
     return this.msg;
   }
@@ -12,7 +13,7 @@ class Message {
   set msg(msg){
 
     if (!msg || isNaN(msg)) {
-      throw new Error('Invalid Msg - Mensagem Inválida!');
+      throw new Error('Invalid Msg - Mensagem Inválida! ohhhhhh');
     }
 
 
